@@ -1,0 +1,11 @@
+
+#! /bin/bash
+
+read a,b
+c= $( a + b )
+d= $ ( a * b)
+e= $ ( a -b )
+
+echo " sum is $c "
+echo “ product is $d”
+Echo “ Subtract is $(e) “
